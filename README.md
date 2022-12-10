@@ -1,5 +1,6 @@
 
 1. Что было сделано
+
 В рамках задания стояла цель научиться предсказывать по имеющимся признакам наблюдений-объвлений о продаже машин стоимость продаваемого авто. 
 
 Что было сделано с начальным набором данных:
@@ -44,27 +45,26 @@
 
 P.S. Прикладываю примеры работы сервиса - функционал: predict_item, predict_items, upload (импорт базового/экспорт дополненного csv-файла).
 
-Сервис FastApi 
-(перед запуском на локале - команды в терминале: 
+Сервис FastApi. Перед запуском на локале - команды в терминале: 
 1. pip install -r requirements.txt
-2. uvicorn main:app --reload )
+2. uvicorn main:app --reload
 
-![logo](https://rawgit.com/gojuno/minimock/master/screenshots/inner_interface.png)
+![logo](https://rawgit.com/ML-MLDS-tasks/task1/screenshots/inner_interface.png)
 
 predict_item (предсказание цены по 1 наблюдению)
-![logo](https://rawgit.com/gojuno/minimock/master/screenshots/predict_item.png)
+![logo](https://rawgit.com/ML-MLDS-tasks/task1/screenshots/predict_item.png)
 
 predict_items (предсказание цены по нескольким наблюдениям, переданным в формате JSON)
-![logo](https://rawgit.com/gojuno/minimock/master/screenshots/predict_items.png)
+![logo](https://rawgit.com/ML-MLDS-tasks/task1/screenshots/predict_items.png)
 
 upload (предсказание цены по нескольким наблюдениям, переданным в формате CSV)
     импортированный на сервис CSV-файл
-![logo](https://rawgit.com/gojuno/minimock/master/screenshots/csv_file_example.png)
+![logo](https://rawgit.com/ML-MLDS-tasks/task1/screenshots/csv_file_example.png)
 
     работа сервиса
-![logo](https://rawgit.com/gojuno/minimock/master/screenshots/upload.png)
+![logo](https://rawgit.com/ML-MLDS-tasks/task1/screenshots/upload.png)
 
     экспортированный с сервиса CSV-файл
-![logo](https://rawgit.com/gojuno/minimock/master/screenshots/csv_output.png)
+![logo](https://rawgit.com/ML-MLDS-tasks/task1/screenshots/csv_output.png)
 
 
